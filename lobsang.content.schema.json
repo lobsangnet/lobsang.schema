@@ -1,0 +1,86 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/lobsangnet/lobsang.schema/master/lobsang.content.schema.json",
+  "type": "object",
+  "title": "The Lobsang Content Schema",
+  "required": [
+    "content",
+    "kind",
+    "contentType",
+    "created",
+    "derivedFrom",
+    "id",
+    "issuer"
+  ],
+  "properties": {
+    "content": {
+      "$id": "#/properties/content",
+      "type": "string",
+      "title": "The Content Schema",
+      "default": "",
+      "examples": [
+        "https://www.nodeknockout.com/"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "kind": {
+      "$id": "#/properties/kind",
+      "type": "string",
+      "title": "The Kind Schema",
+      "default": "",
+      "examples": [
+        "URL"
+      ],
+      "pattern": "^[A-Z/]+$"
+    },
+    "contentType": {
+      "$id": "#/properties/contentType",
+      "type": "null",
+      "title": "The Contenttype Schema",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "created": {
+      "$id": "#/properties/created",
+      "type": "string",
+      "title": "The Created Schema",
+      "default": "",
+      "examples": [
+        "2018-10-31T22:03:25.785Z"
+      ],
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}[T ]{1}[0-9]{2}:[0-9]{2}:[0-9]{2}\.[0-9]{3}Z$"
+    },
+    "derivedFrom": {
+      "$id": "#/properties/derivedFrom",
+      "type": "null",
+      "title": "The Derivedfrom Schema",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "id": {
+      "$id": "#/properties/id",
+      "type": "string",
+      "title": "The Id Schema",
+      "default": "",
+      "examples": [
+        "e5dd43c3551bd...489ff2752f075d23954a10c1486ace577e4abac65df3b3ef4"
+      ],
+      "pattern": "^[0-9a-f]+$"
+    },
+    "issuer": {
+      "$id": "#/properties/issuer",
+      "type": "string",
+      "title": "The Issuer Schema",
+      "default": "",
+      "examples": [
+        "Lv02OXwlrubGhWWaZs7/...ZI0yA=="
+      ],
+      "pattern": "^[0-9a-f]+$"
+    }
+  }
+}

@@ -43,7 +43,7 @@
       "examples": [
         "GPL-3.0"
       ],
-      "pattern": "[0-9A-Za-z.-]{3,30}[+]?"
+      "pattern": "^[0-9A-Za-z.-]{3,30}[+]?$"
     },
     "contentType": {
       "$id": "#/properties/contentType",
@@ -62,7 +62,7 @@
       "examples": [
         "2018-10-31T22:03:25.785Z"
       ],
-      "pattern": "\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z"
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}.[0-9]{3}Z$"
     },
     "derivedFrom": {
       "$id": "#/properties/derivedFrom",
@@ -89,7 +89,7 @@
       "title": "The Issuer Schema",
       "default": "",
       "examples": [
-        "Lv02OXwlrubGhWWaZs7/...ZI0yA=="
+        "Lv02OXwlrubGhWWaZs7...ZI0yA=="
       ],
       "pattern": "^[0-9a-f]+$"
     }

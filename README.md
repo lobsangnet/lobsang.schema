@@ -29,6 +29,6 @@ The test for `license` is [derived from Wikidata][spdx-regex].
 
 Apache 2.0. See [LICENSE.txt][license].
 
-[iso8601-license]: https://stackoverflow.com/a/28022901
+[iso8601-regex]: https://stackoverflow.com/a/28022901
 [license]: ./LICENSE.txt
 [spdx-regex]: https://www.wikidata.org/wiki/Property:P2479

@@ -43,7 +43,7 @@
       "examples": [
         "GPL-3.0"
       ],
-      "pattern": "[0-9A-Za-z\.\-]{3,30}[+]?"
+      "pattern": "[0-9A-Za-z.-]{3,30}[+]?"
     },
     "contentType": {
       "$id": "#/properties/contentType",
